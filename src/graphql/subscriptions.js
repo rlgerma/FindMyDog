@@ -11,7 +11,7 @@ export const onCreateDog = /* GraphQL */ `
       updatedAt
     }
   }
-`;
+`
 export const onUpdateDog = /* GraphQL */ `
   subscription OnUpdateDog {
     onUpdateDog {
@@ -22,7 +22,7 @@ export const onUpdateDog = /* GraphQL */ `
       updatedAt
     }
   }
-`;
+`
 export const onDeleteDog = /* GraphQL */ `
   subscription OnDeleteDog {
     onDeleteDog {
@@ -33,4 +33,4 @@ export const onDeleteDog = /* GraphQL */ `
       updatedAt
     }
   }
-`;
+`

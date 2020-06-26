@@ -14,7 +14,7 @@ export const createDog = /* GraphQL */ `
       updatedAt
     }
   }
-`;
+`
 export const updateDog = /* GraphQL */ `
   mutation UpdateDog(
     $input: UpdateDogInput!
@@ -28,7 +28,7 @@ export const updateDog = /* GraphQL */ `
       updatedAt
     }
   }
-`;
+`
 export const deleteDog = /* GraphQL */ `
   mutation DeleteDog(
     $input: DeleteDogInput!
@@ -42,4 +42,4 @@ export const deleteDog = /* GraphQL */ `
       updatedAt
     }
   }
-`;
+`

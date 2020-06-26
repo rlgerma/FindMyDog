@@ -16,5 +16,13 @@
 				}
 			}
 		}
+	},
+	"auth": {
+		"findmydog6cf62d9b": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": [],
+			"customAuth": false
+		}
 	}
 }

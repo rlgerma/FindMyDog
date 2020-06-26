@@ -11,7 +11,7 @@ export const getDog = /* GraphQL */ `
       updatedAt
     }
   }
-`;
+`
 export const listDogs = /* GraphQL */ `
   query ListDogs(
     $filter: ModelDogFilterInput
@@ -29,4 +29,4 @@ export const listDogs = /* GraphQL */ `
       nextToken
     }
   }
-`;
+`

@@ -10,6 +10,11 @@
             "StackName": "amplify-findmydog-dev-182934",
             "StackId": "arn:aws:cloudformation:us-west-2:799773465990:stack/amplify-findmydog-dev-182934/c866a370-b5b1-11ea-8c59-0671cb7b53ca",
             "AmplifyAppId": "d3mux5jzv9s6ys"
+        },
+        "categories": {
+            "auth": {
+                "findmydog6cf62d9b": {}
+            }
         }
     }
 }
