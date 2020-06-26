@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import {View, Text, StyleSheet, TextInput, Button} from 'react-native';
+import Navbar from './Components/Navbar';
 
 import {API, graphqlOperation} from 'aws-amplify';
 import {createDog} from '../src/graphql/mutations';
@@ -42,6 +43,7 @@ const App = () => {
 
   return (
     <View style={styles.container}>
+      <Navbar />
       <TextInput
         onChangeText={val => setInput('name', val)}
         style={styles.input}
